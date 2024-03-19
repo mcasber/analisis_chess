@@ -12,7 +12,7 @@ print(df.head())
 year=2024
 df['Edad']=df['nacido'].apply(lambda x : year - x)
 
-df=df.fillna('euro')
+df=df.fillna('euro') #este metodo completa los campos vacios con el parametro que se le da
 
 #markers={1:'D', 2: 's'}
 #sns.set(style='whitegrid', palette='dark', font="Verdana", font_scale=0.75)
@@ -28,5 +28,4 @@ sns.jointplot(
 plt.show()'''
 
 print(df)
-
 print(df.groupby('continente').count())

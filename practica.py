@@ -4,7 +4,7 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 
 df = pd.read_csv('C:\\Users\\Mariano\\Desktop\\Chess\\chess.csv',sep=",",header=0,
-                 names = ['ranking', 'nombre', 'elo', 'norma', 'pais', 'juegos', 'nacido'])
+                 names = ['ranking', 'nombre', 'elo', 'norma', 'pais', 'juegos', 'nacido','continente'])
 
 print(df.head()) 
 #print(df.info())
@@ -32,6 +32,7 @@ df['Edad']=df['nacido'].apply(lambda x : year - x)
 #print(df.groupby('pais').agg({'elo':['min','max'],'juegos':'sum'}))
 
 #markers={'Norway':'D', 'China': 's'}
+
 sns.set(style='dark', palette='dark', font="Verdana", font_scale=0.75)
 sns.relplot(
     data= df, 
