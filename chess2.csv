@@ -1,0 +1,11 @@
+﻿rank ,name ,ELO ,title,federation ,games,birth_year,continent,ingresos
+1,Magnus Carlsen ,2864,SGM,Norway ,3125,1990,euro,1000
+2,Liren Ding ,2806,SGM,China ,1630,1992,asia,500
+3,Alireza Firouzja ,2793,GM,France ,845,2003,euro,200
+4,Fabiano Caruana,2783,SGM,United States ,2622,1992,ame,800
+5,Levon Aronian ,2775,GM,United States ,3320,1982,ame,500
+6,Wesley So ,2773,GM,United States ,1902,1993,asia,400
+7,Ian Nepomniachtchi ,2766,SGM,Russian Federation ,2297,1990,euro,400
+8,Richard Rapport ,2764,GM,Hungary ,1278,1996,euro,900
+9,Anish Giri ,2760,GM,Netherlands ,2209,1994,euro,100
+10,Hikaru Nakamura ,2760,SGM,United States ,3147,1987,ame,1000

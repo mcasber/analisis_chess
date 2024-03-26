@@ -12,6 +12,7 @@ print(df.head())
 year=2024
 df['Edad']=df['nacido'].apply(lambda x : year - x)
 
+
 df=df.fillna('euro') #Sustituir los valores nulos por una cadena df.fillna('Missing')
 
 #Graficas 
@@ -19,7 +20,7 @@ df=df.fillna('euro') #Sustituir los valores nulos por una cadena df.fillna('Miss
 #sns.set(style='whitegrid', palette='dark', font="Verdana", font_scale=0.75)
 #sns.countplot(data= df, y = 'pais') #sumar este
 #sns.catplot(data= df, y = 'pais') # o este
-
+'''
 sns.jointplot(
     data= df, 
     x = 'elo',
@@ -30,3 +31,4 @@ plt.show()
 
 print(df)
 print(df.groupby('continente').count())
+'''
