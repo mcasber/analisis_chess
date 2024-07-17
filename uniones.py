@@ -9,5 +9,5 @@ df2 = pd.read_csv('C:\\Users\\Mariano\\Desktop\\Chess\\chess2.csv',sep=",",heade
 
 df3 = df1.merge(df2,left_on = 'nombre', right_on='jugador') #, how='left')
 
-print(df3.info()) 
-print(df1.describe())
+print(df3) 
+
